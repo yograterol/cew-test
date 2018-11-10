@@ -34,6 +34,7 @@
                         <coin-icon icon="{{ajaxReq.type.toLowerCase()}}" hidetext="{{true}}">
 
                         </coin-icon>
+                        {{coldStakingService.stakingInfo.amount || 0 | number}}
                         {{ajaxReq.type}}
 
                         from Cold Staking:</b></h2>
